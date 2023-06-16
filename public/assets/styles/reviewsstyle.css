@@ -1,0 +1,115 @@
+* {
+    margin:0;
+    padding:0;
+    text-style: none;
+    box-sizing: border-box;
+}
+.FAQH{
+    height: 100px;
+    width: 150vh;
+}
+div.FAQT {
+    font-family: 'Ubuntu', sans-serif;
+    height: 100px;
+    padding: 2%;
+    text-align: center;
+    font-size: 30px;
+
+}
+.logo {
+    float: left;
+    height: 80px;
+    margin-top: -20px;
+    margin-left: 50px;
+
+}
+.petLogo  {
+    float: right;
+    height: 80px;
+    margin-top: -20px;
+    margin-right: -80px;
+
+}
+
+nav{
+    background: #31B4A7;
+    border: 3px solid #fff;
+    height: 80px;
+    margin: 0 80px;
+    width: 150vh;
+}
+nav ul{
+    text-align-last: center;
+
+}
+nav ul li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 80px;
+}
+nav ul li a{
+    color: black;
+    font-size: 30px;
+    padding: 7px 13px;
+    text-decoration: none;
+}
+section.SPACE{
+background: #FFF;
+height: 20px;
+width: 150vh;
+}
+
+section.Reseñas{
+font-family: 'Inria Sans', sans-serif;
+ background: #FFF0CB;
+ margin: 0 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 70vh;
+ width: 150vh;
+}
+div.ReseñasD {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 50px;
+   max-width: 800px;
+   margin-left: -250px;
+}
+div.BoxA{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 250px;
+  font-size: 22px;
+  background: #DDF3F6;
+}
+div.BoxB{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 250px;
+  font-size: 22px;
+  background: #DDF3F6;
+}
+div.BoxC{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 250px;
+  font-size: 21.5px;
+  background: #DDF3F6;
+}
+div.BoxD{
+  border: 1px #DDF3F6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 250px;
+  font-size: 20.5px;
+  background: #DDF3F6;
+}
