@@ -3,44 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/styles/loginstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Log In - MapVet</title>
 
 </head>
 <body>
-<div class="container">
-    <div class="toolbar">
-        <div class="left-content">
-            <button>Back</button>
-        </div>
-        <div class="right-content">
-            <button>Home</button>
-        </div>
+<section class="Header">
+    <div class="headerContent">
+        <button type="button" onclick="goBack()">
+            <img src="assets/images/row.png" alt="row" class="row">
+        </button>
+        <img src="assets/images/logo2.png" alt="Logo" class="logo2">
     </div>
 
+</section>
+<section class="content">
     <div class="card">
-        <h2 class="card-title">Regístrate</h2>
+        <h2 class="card-title">Welcome</h2>
 
-        <label> Nombres:</label>
-        <input type="text" id="Nombres">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
 
-        <label for="apellidos">Apellidos:</label>
-        <input type="text" id="Apellidos">
-
-        <label for="correo">Correo:</label>
-        <input type="email" id="Correo">
-
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="Contrasena">
-
-        <label for="confirmar">Confirmar contraseña:</label>
-        <input type="password" id="Confirmar">
-
-        <label for="fecha">Fecha de nacimiento:</label>
-        <input type="date" id="Fecha">
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <span><a href="#">Forgot your password?</a></span>
 
         <div class="centered-button">
-            <button>Registrar</button>
+            <button>Google</button>
+            <button>Facebook</button>
+            <button>Log In</button>
         </div>
     </div>
-</div>
+</section>
+
 </body>
+<script src="assets/scripts/loginscript.js"></script>
 </html>
