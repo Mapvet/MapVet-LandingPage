@@ -1,3 +1,3 @@
 function goBack() {
-    window.location.href = 'MapVet-LandingPage/docs/index.html';
+    window.location.href = "../../index.html";
 }
