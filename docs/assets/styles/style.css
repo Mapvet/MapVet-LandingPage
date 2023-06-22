@@ -53,13 +53,13 @@ nav a {
 }
 .home img {
     width: 100%;
-
     z-index: -1
 }
 .home-slogan {
     position: absolute;
     font-size: 50px;
-    padding: 4% 15%;
+    text-align: center;
+    padding: 4% 30%;
     color: white;
     font-weight: 800;
     font-family: 'Ubuntu', sans-serif;
