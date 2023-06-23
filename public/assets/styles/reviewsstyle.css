@@ -1,75 +1,93 @@
 * {
-    margin:0;
-    padding:0;
-    text-style: none;
-    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.FAQH{
-    height: 100px;
-    width: 150vh;
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
-div.FAQT {
-    font-family: 'Ubuntu', sans-serif;
-    height: 100px;
-    padding: 2%;
-    text-align: center;
-    font-size: 30px;
+html {
+    scroll-behavior: smooth;
 
+}
+/*Header*/
+.Header{
+    flex:0
+}
+.headerContent{
+    padding: 10px;
 }
 .logo {
     float: left;
-    height: 80px;
-    margin-top: -20px;
-    margin-left: 50px;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 80px;
 }
-.petLogo  {
+.logo2 {
     float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+}
+.headerContent h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+/*NAVBAR*/
+.navbar{
+    width: 70%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+nav {
+    padding: 10px;
     height: 80px;
-    margin-top: -20px;
-    margin-right: -80px;
+    font-size: 20px;
+    background: rgba(49, 180, 167, 1);
 
 }
-
-nav{
-    background: #31B4A7;
-    border: 3px solid #fff;
-    height: 80px;
-    margin: 0 80px;
-    width: 150vh;
+.navbar-options{
+    padding: 25px;
 }
-nav ul{
-    text-align-last: center;
-
+nav ul {
+    list-style-type: none;
+    text-align: center;
 }
-nav ul li{
+
+nav li {
+    display: inline;
+    background: rgba(255, 240, 203, 1);
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+}
+
+nav a {
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 80px;
-}
-nav ul li a{
-    color: black;
-    font-size: 30px;
-    padding: 7px 13px;
+    font-size: 20px;
     text-decoration: none;
-}
-section.SPACE{
-background: #FFF;
-height: 20px;
-width: 150vh;
+    color: #333;
+    padding: 10px;
 }
 
-section.Reseñas{
-font-family: 'Inria Sans', sans-serif;
- background: #FFF0CB;
- margin: 0 80px;
- display: flex;
- justify-content: center;
- align-items: center;
- height: 70vh;
- width: 150vh;
+.content {
+    flex: 2;
+    display: flex;
+    background: rgba(255, 240, 203, 1);
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
+
 div.ReseñasD {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -77,39 +95,11 @@ div.ReseñasD {
    max-width: 800px;
    margin-left: -250px;
 }
-div.BoxA{
+.Box{
   border: 1px #DDF3F6;
   border-radius: 10px;
   padding: 10px;
   width: 500px;
-  height: 250px;
-  font-size: 22px;
-  background: #DDF3F6;
-}
-div.BoxB{
-  border: 1px #DDF3F6;
-  border-radius: 10px;
-  padding: 10px;
-  width: 500px;
-  height: 250px;
-  font-size: 22px;
-  background: #DDF3F6;
-}
-div.BoxC{
-  border: 1px #DDF3F6;
-  border-radius: 10px;
-  padding: 10px;
-  width: 500px;
-  height: 250px;
-  font-size: 21.5px;
-  background: #DDF3F6;
-}
-div.BoxD{
-  border: 1px #DDF3F6;
-  border-radius: 10px;
-  padding: 10px;
-  width: 500px;
-  height: 250px;
-  font-size: 20.5px;
+  font-size: 18px;
   background: #DDF3F6;
 }
