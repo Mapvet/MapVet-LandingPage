@@ -2,73 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="assets/styles/appointmentstyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <title>Citas</title>
+    <link rel="icon" href="logo2.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>MapVet-Appointment</title>
 </head>
 <body>
-<header>
-    <div class="logo">
-        <a href="#"><img src="assets/images/logo.png" alt="logo del proyecto"></a>
+<section class="Header">
+    <div class="headerContent">
+        <img src="assets/images/logo2.png" alt="Logo" class="logo">
+        <img src="assets/images/petProfile.png" alt="Logo" class="logo2">
+        <h1>Appointment</h1>
     </div>
-    <div  class="title">
-        <h1>Citas</h1>
-    </div>
+
+</section>
+<section class="navbar">
     <nav>
-        <div class="login">
-            <a href="#" class="imguser"><img src="assets/images/petProfile.png" alt="logo del usuario"></a>
-            <h1 class="styleLogin">Log in</h1>
-        </div>
+
+        <ul class="navbar-options">
+            <li><a href="petprofile.html">Profiles</a></li>
+            <li><a href="map.html">MapVet</a></li>
+            <li><a href="newappointment.html">Appointments</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="mainmenu.html">Recommendation</a></li>
+        </ul>
     </nav>
-</header>
-<nav class="menu">
-    <ul>
-        <li>
-            <a href="#" >Perfiles</a>
-        </li>
-        <li>
-            <a href="#" >MapVet</a>
-        </li>
-        <li>
-            <a href="#" class="active">Citas</a>
-        </li>
-        <li>
-            <a href="#">Preguntas frecuentes</a>
-        </li>
-    </ul>
-</nav>
-<section>
-    <div class="cite">
-        <div class="content">
-            <h2>Citas pendientes</h2>
-            <a href="#"><img src="assets/images/appointment/corgidog.png"></a>
-            <h4>Bobi</h4>
-        </div>
-        <div class="content2">
-            <h3>Nombre de la cita</h3><br>
-            <h3>Fecha</h3><br>
-            <h3>Hora</h3>
-        </div>
-        <div class="formulario">
-            <div class="username">
-                <input type="text" required>
-                <input type="text" required>
-                <input type="text" required>
-            </div>
-        </div>
-        <div class="ButtonSelect">
-            <button class="SeleccionarCita">
-                <a href="#">Nueva Cita</a>
-            </button>
-        </div>
+</section>
+<section class="content">
+    <div class="profile">
+        <h1>Pending Appointments</h1>
+        <br>
+        <img src="assets/images/petProfile.png">
+        <br>
+        <h2>Bobi</h2>
+    </div>
+    <div class="appointment">
+        <h2>Type of Appointment:</h2>
+        <br>
+        <h2>Date:</h2>
+        <br>
+        <h2>Hour:</h2>
+    </div>
+    <div class="data">
+        <h2>Bath</h2>
+        <br>
+        <h2>04/05/2023</h2>
+        <br>
+        <h2>5pm</h2>
+    </div>
+    <div class="buttoncontainer">
+        <button>
+            <a href="#">Nueva Cita</a>
+        </button>
     </div>
 </section>
-
 
 </body>
 </html>
