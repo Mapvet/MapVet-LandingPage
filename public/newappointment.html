@@ -2,33 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Citas Select</title>
+    <title>MapVet-NewAppointment</title>
     <link rel="stylesheet" href="assets/styles/newappointmentstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="CitasH">
-    <div class="CitasT">
-        <img src="assets/images/logo.png" alt="Logo" class="logo">
-        <img src="assets/images/newappointment/LogoVet.png" alt="petLogo" class="petLogo">
-        <h1>Preguntas frecuentes</h1>
+
+<section class="Header">
+    <div class="headerContent">
+        <img src="assets/images/logo2.png" alt="Logo" class="logo">
+        <img src="assets/images/petProfile.png" alt="Logo" class="logo2">
+        <h1>New Appointment</h1>
     </div>
+
 </section>
+<section class="navbar">
+    <nav>
 
-<nav>
-    <ul>
-        <li><a href="#">Perfil</a> </li>
-        <li><a href="#">Mis veterinarias</a> </li>
-        <li><a href="#">Citas Agendadas</a> </li>
-        <li><a href="#">Preguntas Frecuentes</a> </li>
-    </ul>
-</nav>
-
-<section class="SPACE">
+        <ul class="navbar-options">
+            <li><a href="petprofile.html">Profiles</a></li>
+            <li><a href="map.html">MapVet</a></li>
+            <li><a href="newappointment.html">Appointments</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="mainmenu.html">Recommendation</a></li>
+        </ul>
+    </nav>
 </section>
-
-<section class="CitasSelectS">
-    <div class="CitasSelectD">
-        <div class="BoxA">
+<section class="content">
+    <div class="CitasSelect">
+        <div class="Box">
             <h1>CITA DE BAÑO</h1>
             <p id="txtCita1">
                 Dueño: Micaela Perez<br>
@@ -39,7 +46,7 @@
             </p>
 
         </div>
-        <div class="BoxB">
+        <div class="Box">
             <h1>CITA DE CONSULTA</h1>
             <p id="txtCita2">
                 Dueño: Michael Perez<br>
@@ -50,7 +57,7 @@
             </p>
 
         </div>
-        <div class="BoxC">
+        <div class="Box">
             <h1>CITA DE VACUNA</h1>
             <p id="txtCita3">
                 Dueño: Juan Perez<br>
@@ -61,7 +68,7 @@
             </p>
 
         </div>
-        <div class="BoxD">
+        <div class="Box">
             <h1>CITA DE VACUNA</h1>
             <p id="txtCita4">
                 Dueño: Antony Carlos<br>
@@ -71,12 +78,9 @@
                 <img src="assets/images/newappointment/Ellipse.png" alt="Ellipse4" class="Ellipse4">
             </p>
         </div>
-        <div class="ButtonSelect">
-            <button class="SeleccionarCita">
-                <a href="#">Nueva Cita</a>
-            </button>
-        </div>
+        <button class="SeleccionarCita">
+            <a href="#">Nueva Cita</a>
+        </button>
     </div>
 </section>
-</body>
-</html>
+
