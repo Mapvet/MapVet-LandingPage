@@ -24,16 +24,17 @@
     <nav>
 
         <ul class="navbar-options">
-            <li><a href="#">Perfiles</a></li>
-            <li><a href="#">MapVet</a></li>
-            <li><a href="#">Citas</a></li>
-            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="petprofile.html">Profiles</a></li>
+            <li><a href="map.html">MapVet</a></li>
+            <li><a href="#">Appointments</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="mainmenu.html">Recommendation</a></li>
         </ul>
     </nav>
 </section>
 <section class="content">
     <div class="mostrador" id="mostrador">
-        <h2 >ARTÍCULOS PARA PERROS</h2>
+        <h2 >DOG SUPPLIES</h2>
         <div class="fila">
             <div class="item" onclick="cargar(this)">
                 <div class="contenedor-foto">
@@ -41,7 +42,7 @@
 
                 </div>
                 <p class="descripcion">RICOCAN</p>
-                <p class="descripcion1">Comida para perros adultos</p>
+                <p class="descripcion1">Adult dog food</p>
                 <span class="precio">S/. 90.50</span>
             </div>
             <div class="item" onclick="cargar(this)">
@@ -49,7 +50,7 @@
                     <img src="assets/images/products/2.png" alt="">
                 </div>
                 <p class="descripcion" id>HARTZ </p>
-                <p class="descripcion1" id>Puppy acondicionador</p>
+                <p class="descripcion1" id>Puppy conditioner</p>
                 <span class="precio">S/. 28.50</span>
             </div>
             <div class="item" onclick="cargar(this)">
@@ -65,18 +66,18 @@
                     <img src="assets/images/products/4.png" alt="">
                 </div>
                 <p class="descripcion" id>DENTITOY </p>
-                <p class="descripcion1">Snacks deshidratados</p>
+                <p class="descripcion1">Snacks dehydrated</p>
                 <span class="precio">S/. 10.50</span>
             </div>
         </div>
-        <h2 >ARTÍCULOS PARA GATOS</h2>
+        <h2 >CAT SUPPLIES</h2>
         <div class="fila">
             <div class="item" onclick="cargar(this)">
                 <div class="contenedor-foto">
                     <img src="assets/images/products/5.png" alt="">
                 </div>
                 <p class="descripcion" id>WHISKAS </p>
-                <p class="descripcion1">Comida para gatos</p>
+                <p class="descripcion1">Cat food</p>
                 <span class="precio">S/. 90.50</span>
             </div>
             <div class="item" onclick="cargar(this)">
@@ -84,7 +85,7 @@
                     <img src="assets/images/products/6.png" alt="">
                 </div>
                 <p class="descripcion" id>ADVANTAGE </p>
-                <p class="descripcion1">Pulguicida y piojicida para perros y gatos</p>
+                <p class="descripcion1">Flea and lice killer for cats and dogs</p>
                 <span class="precio">S/. 40.50</span>
             </div>
             <div class="item" onclick="cargar(this)">
@@ -92,7 +93,7 @@
                     <img src="assets/images/products/7.png" alt="">
                 </div>
                 <p class="descripcion" id>PET-CARE </p>
-                <p class="descripcion1">Shampoo hipoalergenico para gatos</p>
+                <p class="descripcion1">Hypoallergenic shampoo for cats</p>
                 <span class="precio">S/. 40.50</span>
             </div>
             <div class="item" onclick="cargar(this)">
@@ -100,7 +101,7 @@
                     <img src="assets/images/products/8.png" alt="">
                 </div>
                 <p class="descripcion" id>RICOCAT </p>
-                <p class="descripcion1">Pate sabor sardina y pollo</p>
+                <p class="descripcion1">Sardine and chicken flavor pate</p>
                 <span class="precio">S/. 10.50</span>
             </div>
         </div>
@@ -114,14 +115,14 @@
         </div>
         <div class="info">
             <img src="assets/images/products/1.png" alt="" id="img">
-            <h2 id="modelo">Cantidad</h2>
-            <p id="descripcion">Descripción del modelo 1</p>
+            <h2 id="modelo">Quantity</h2>
+            <p id="descripcion">Description of model 1</p>
 
             <span class="precio" id="precio"></span>
 
             <div class="fila">
                 <div class="size">
-                    <label for="">Cantidad</label>
+                    <label for="">Quantity</label>
                     <select name="" id="">
                         <option value="">1</option>
                         <option value="">2</option>
@@ -135,7 +136,7 @@
                         <option value="">10</option>
                     </select>
                 </div>
-                <button>COMPRAR</button>
+                <button><a href="payment.html">Buy</a></button>
             </div>
             <div class="cerrar" onclick="cerrar()">
                 &#x2715

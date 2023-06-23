@@ -72,7 +72,7 @@ nav li {
 
 nav a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     color: #333;
     padding: 10px;
@@ -101,6 +101,11 @@ nav a {
 .veterinary img{
     width: 200px;
     height: 100px;
+}
+.veterinary button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
 }
 /*MAP*/
 

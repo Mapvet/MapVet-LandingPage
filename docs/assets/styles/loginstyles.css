@@ -92,3 +92,9 @@ body {
     color:white;
     width: 150px;
 }
+button a{
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
