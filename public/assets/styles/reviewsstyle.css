@@ -103,3 +103,22 @@ div.ReseñasD {
   font-size: 18px;
   background: #DDF3F6;
 }
+button{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: #08857C;
+    cursor: pointer;
+    color:white;
+    width: 150px;
+
+
+}
+button a{
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
