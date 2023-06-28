@@ -3,23 +3,27 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
 }
+
 html {
     scroll-behavior: smooth;
+}
 
+/* Header */
+.Header {
+    flex: 0;
 }
-/*Header*/
-.Header{
-    flex:0
-}
-.headerContent{
+
+.headerContent {
     padding: 10px;
 }
+
 .logo {
     float: left;
     margin-left: 10px;
@@ -27,6 +31,7 @@ html {
     height: 70px;
     width: 80px;
 }
+
 .logo2 {
     float: right;
     margin-left: 10px;
@@ -34,29 +39,31 @@ html {
     height: 70px;
     width: 70px;
 }
-.headerContent h1{
+
+.headerContent h1 {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
 }
 
-/*NAVBAR*/
-.navbar{
+/* Navbar */
+.navbar {
     width: 70%;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
 }
+
 nav {
     padding: 10px;
     height: 80px;
     font-size: 20px;
     background: rgba(49, 180, 167, 1);
-
-
 }
-.navbar-options{
+
+.navbar-options {
     padding: 25px;
 }
+
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -79,8 +86,7 @@ nav a {
     padding: 10px;
 }
 
-
-/*recommendation*/
+/* Recommendation */
 .content {
     flex: 2;
     background: rgba(255, 240, 203, 1);
@@ -91,21 +97,43 @@ nav a {
     padding: 10px;
 }
 
-.recommendation{
+.recommendation {
     margin: 30px;
 }
-.content h1{
+
+.content h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     color: #08857C;
+
 }
-.recommendation button{
+
+.recommendation button {
     background-color: transparent;
     border: 0;
     cursor: pointer;
 }
-.recommendation img{
-    height: 350px;
 
+.recommendation img {
+    max-width: 100%;
+    width: auto;
+    height: 300px;
 }
 
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 10px;
+    }
+}
