@@ -222,9 +222,10 @@ nav a {
     background: #FFF0CB;
     border-radius: 10px;
     margin: 25px;
-    padding: 45px;
-    flex: 1 1 300px;
+    padding: 10px;
+    flex: 1 1 400px;
     max-width: 300px;
+
 }
 
 .cardP ul {
